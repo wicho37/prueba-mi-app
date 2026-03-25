@@ -1,0 +1,19 @@
+.slides {
+  display: flex;
+}
+
+.slide {
+  min-width: 100%;
+}
+.topbarContainer {
+  display: flex;
+  margin: 0 200px;
+}
+.topbarContainer div {
+      text-align: center;
+}
+.carruselTexto {
+  overflow: hidden;   /* 🔥 esto evita ver lo de atrás */
+  width: 100%;
+  position: relative;
+}

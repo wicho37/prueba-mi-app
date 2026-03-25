@@ -3,6 +3,8 @@ import Login from "../ingresar/Login"
 import Comparar from "../comparar/Comparar"
 import ListDeseos from "../listDeseos/ListDeseos"
 import ShoppingCart from "../shopingCart/ShopingCart"
+import logo from "../../assets/imagenes/logo-especifica.webp"
+import style from "./Header.module.css"
 
 
 
@@ -11,8 +13,8 @@ import ShoppingCart from "../shopingCart/ShopingCart"
 const Header = () => {
 
     return (
-        <div >
-            <img src="" alt="" />
+        <div className={style.containerHeader}>
+            <img className={style.logo} src={logo} alt="logo, drogueria especifica" />
             <div>
                 <Buscador/>
             </div>

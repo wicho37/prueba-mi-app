@@ -1,20 +1,21 @@
 import whatsapp from "../../assets/imagenes/whatsapp.svg"
 import facebook from '../../assets/imagenes/facebook.svg'
 import twitter from "../../assets/imagenes/twitter.svg"
+import style from "./RedesSociales.module.css"
 
 
 
 const RedesSociales = () => {
    return (
-      <div>
-         <div>
-            <img src={whatsapp} alt="WhatsApp" width={50} />
+      <div className={style.contentRedes}>
+         <div className={style.redes}>
+            <img src={whatsapp} alt="WhatsApp" width={30} />
          </div>
-         <div>
-            <img src={facebook} alt="Facebook" width={50} />
+         <div className={style.redes}>
+            <img src={facebook} alt="Facebook" width={30} />
          </div>
-         <div>
-            <img src={twitter} alt="Twitter" width={50} />
+         <div className={style.redes}>
+            <img src={twitter} alt="Twitter" width={30} />
          </div>
       </div>
    )

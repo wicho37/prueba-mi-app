@@ -1,0 +1,7 @@
+.containerHeader {
+    display: flex;
+}
+.logo{
+        width: 30%;
+    height: 30%;
+}

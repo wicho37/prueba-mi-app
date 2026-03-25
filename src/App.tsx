@@ -1,5 +1,7 @@
 import Header from "./components/Header/Header"
-import { Topbar } from "./components/Topbar/Topbar"
+import RedesSociales from "./components/redesSociales/RedesSociales"
+import Topbar from "./components/Topbar/Topbar"
+import style from "./App.module.css"
 
 
 function App() {
@@ -7,10 +9,17 @@ function App() {
   return (
     <div>
       <div>
-        <Topbar/>
-        <Header />
+        <div className={style.containerApptx}>
+          <RedesSociales />
+          <Topbar />
+        </div>
 
-        
+        <div>
+          <Header />
+        </div>
+
+
+
       </div>
     </div>
   )
