@@ -48,7 +48,7 @@ const Topbar = () => {
           onTransitionEnd={handleTransitionEnd}
           style={{
             transform: `translateX(-${index * 100}%)`,
-            transition: transition ? "transform 0.6s ease-in-out" : "none"
+            transition: transition ? "transform 0.3s ease-in-out" : "none"
           }}
         >
           {textosLoop.map((texto, i) => (

@@ -1,6 +1,6 @@
 import Buscador from "../buscador/Buscador"
-import Login from "../ingresar/Login"
 import Comparar from "../comparar/Comparar"
+import Ingresar from "../ingreso/Ingresar"
 import ListDeseos from "../listDeseos/ListDeseos"
 import ShoppingCart from "../shopingCart/ShopingCart"
 import logo from "../../assets/imagenes/logo-especifica.webp"
@@ -19,7 +19,7 @@ const Header = () => {
                 <Buscador/>
             </div>
             <div>
-                <Login/>
+                <Ingresar/>
             </div>
             <div>
                 <Comparar/>
