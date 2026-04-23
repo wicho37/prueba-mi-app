@@ -1,0 +1,34 @@
+.buscador {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  background: #fff;
+  border: 2px solid #2f4bb2; 
+  border-radius: 30px;
+  padding: 5px;
+}
+
+.buscador input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 30px;
+}
+
+.btnBuscar {
+  background: #8bc34a; 
+  border: none;
+  border-radius: 20px;
+  padding: 10px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btnBuscar img {
+  width: 16px;
+  filter: brightness(0) invert(1); 
+}
