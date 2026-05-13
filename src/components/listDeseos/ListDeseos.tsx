@@ -11,12 +11,15 @@ const ListDeseos = () => {
   
   return (
     <div>
-        <div className={style.wishlist}>
+      <button>
+         <div className={style.wishlist} >
             <img src={wihsList} alt="lista de deseos" />
         </div>
         <div>
             <p>Lista de Deseos</p>
         </div>
+      </button>
+       
     </div>
     
     

@@ -5,12 +5,18 @@ import style from "./Comparar.module.css"
 const IconoBuscar = () => {
   return (
     <div>
-        <div className={style.imgcomparar}>
+      <div>
+        <button className="botonComparar" >
+           <div className={style.imgComparar}>
             <img src={userIcon} alt="comparar" />
         </div>
-        <div>
+        <div className={style.textComparar}>
             <p>Comparar</p>
         </div>
+        </button> 
+        
+      </div>
+       
     </div>
     
     

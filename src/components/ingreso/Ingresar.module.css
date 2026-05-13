@@ -1,0 +1,36 @@
+
+ .botonIngresar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #333;
+}
+
+/* icono */
+.botonIngresar img {
+  width: 22px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* texto */
+.clickIngresar span {
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  transform: translateY(-2px);
+}
+
+/* cambia texto */
+.botonIngresar:hover .clickIngresar span {
+  color: #11d34b;
+}
+
+/* anima icono */
+.botonIngresar:hover img {
+  transform: scale(1.15) rotate(5deg);
+  filter: invert(55%) sepia(90%) saturate(400%) hue-rotate(90deg);
+  color :#11d34b
+}
