@@ -7,6 +7,7 @@
   cursor: pointer;
   transition: all 0.3s ease;
   color: #333;
+  border: none;
 }
 
 /* icono */
@@ -16,7 +17,7 @@
 }
 
 /* texto */
-.clickIngresar span {
+.clickIngresar p {
   color: #333;
   font-weight: 500;
   transition: color 0.3s ease;
@@ -24,7 +25,7 @@
 }
 
 /* cambia texto */
-.botonIngresar:hover .clickIngresar span {
+.botonIngresar:hover .clickIngresar p {
   color: #11d34b;
 }
 
@@ -34,3 +35,4 @@
   filter: invert(55%) sepia(90%) saturate(400%) hue-rotate(90deg);
   color :#11d34b
 }
+

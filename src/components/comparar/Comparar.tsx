@@ -6,11 +6,12 @@ const IconoBuscar = () => {
   return (
     <div>
       <div>
-        <button className="botonComparar" >
-           <div className={style.imgComparar}>
+        <button className={style.botonComparar}>
+           <div className={style.container1}>
             <img src={userIcon} alt="comparar" />
+            <span className={style.counter1}>0</span>
         </div>
-        <div className={style.textComparar}>
+        <div className={style.clickComparar}>
             <p>Comparar</p>
         </div>
         </button> 

@@ -4,14 +4,15 @@ import style from "./Ingresar.module.css"
 
 
 const Ingresar = () => {
+  
   return (
-    <div className={style.ingreso}>
+    <div>
       <button className={style.botonIngresar}>
         <div>
           <img src={usuario} alt="usuario" />
         </div>
         <div className={style.clickIngresar}>
-           <span>Ingresar</span>
+           <p>Ingresar</p>
         </div>
       </button>
     </div>

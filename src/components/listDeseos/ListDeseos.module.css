@@ -1,4 +1,51 @@
-.wishlist img{
-        width: 14%;
-    margin: 0px 0 -20px 0;
+
+ .wishList {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #333;
+  border: none;
+}
+
+/* icono */
+.wishList img {
+  width: 18px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* texto */
+.wishList p {
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  transform: translateY(-2px);
+}
+
+/* cambia texto */
+.wishList:hover .clickWishList span {
+  color: #11d34b;
+}
+
+/* anima icono */
+.wishList:hover img {
+  transform: scale(1.15) rotate(5deg);
+  filter: invert(55%) sepia(90%) saturate(400%) hue-rotate(90deg);
+  color :#11d34b
+}
+.counter2 {
+  position: absolute;
+  top: -9px;
+  right: -7px;
+  background: #11d34b;
+  color: white;
+  font-size: 7px;
+  border-radius: 50%;
+  padding: 2px 6px;
+}
+.container2 {
+  position: relative;
+  width: fit-content;
 }
